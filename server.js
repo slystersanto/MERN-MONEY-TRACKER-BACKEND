@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 //routes
-app.get("/",(req,res)=>{res.send("hello")})
+app.get("/",(req,res)=>{res.send("Welcome to Money Tracker App")})
 //transections routes
 app.use("/api/v1/transections", require("./routes/transectionRoutes"));
 //port
